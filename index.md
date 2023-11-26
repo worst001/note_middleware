@@ -127,21 +127,21 @@ Nginx（发音为"engine-x"）是一个开源的高性能、轻量级的 Web 服
 
 [消息队列介绍](RabbitMQ/01.消息队列介绍.md)
 
-[安装](RabbitMQ/02.RabbitMQ - 安装.md)
+[安装](RabbitMQ/02.RabbitMQ-安装.md)
 
-[简单案例](RabbitMQ/03.RabbitMQ - 简单案例.md)
+[简单案例](RabbitMQ/03.RabbitMQ-简单案例.md)
 
-[发布确认](RabbitMQ/04.RabbitMQ - 发布确认.md)
+[发布确认](RabbitMQ/04.RabbitMQ-发布确认.md)
 
-[交换机](RabbitMQ/05.RabbitMQ - 交换机.md)
+[交换机](RabbitMQ/05.RabbitMQ-交换机.md)
 
-[死信队列](RabbitMQ/06.RabbitMQ - 死信队列.md)
+[死信队列](RabbitMQ/06.RabbitMQ-死信队列.md)
 
-[延迟队列](RabbitMQ/07.RabbitMQ - 延迟队列.md)
+[延迟队列](RabbitMQ/07.RabbitMQ-延迟队列.md)
 
-[发布确认高级](RabbitMQ/08.RabbitMQ - 发布确认高级.md)
+[发布确认高级](RabbitMQ/08.RabbitMQ-发布确认高级.md)
 
-[幂等性、优先级、惰性](RabbitMQ/09.RabbitMQ - 幂等性、优先级、惰性.md)
+[幂等性、优先级、惰性](RabbitMQ/09.RabbitMQ-幂等性、优先级、惰性.md)
 
 ### 基本介绍
 
