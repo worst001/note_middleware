@@ -1,0 +1,22 @@
+server {
+		listen       80;
+        server_name  192.168.148.147;
+
+		# 如果你请求是 http://192.168.148.147/a/www  这里就拦截不到了
+        location /www {  # 这行的意思是你访问的请求是 http://192.168.148.147/www (就会被拦截)
+            root /usr/local/data;  # 就把请求转发到 192.168.148.147/usr/local/data/www/a.html
+        }
+        location /image {
+            root /usr/local/data;
+            autoindex on;     # 这个的作用就是列出访问的文件列表
+        }
+
+        location /a/www {   # 请求 http://192.168.148.147/a/www/a.html
+            root /usr/local/data;  # 把请求转发到 192.168.148.147/usr/local/data/a/www/a.html
+        }
+}
+
+# 现在假如说你去访问 http://192.168.148.147/image/     因为你直接访问的是这个文件夹，而这个文件夹下面有一个 a.png 文件，而你 nginx 里面又配置了 「autoindex on」 所以会把 a.png 以列表的方式列出来，你一点击就会把图片显示出来
+
+# 现在说下如果你访问 http://192.168.148.147/www/a.html 发生什么事？
+# 它会去 192.168.148.147/usr/local/data/www/a.html  去找这个文件加载，找不到就 404

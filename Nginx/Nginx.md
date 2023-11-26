@@ -1,0 +1,150 @@
+# Nginx 课堂笔记与拓展
+
+----------------
+
+## 参考资料
+
+[尚硅谷_nginx_课件_v1](/nginx/nginx课件v1.0.pdf)
+
+[尚硅谷_nginx_课件_v2](/nginx/nginx课堂笔记.pdf)
+
+
+---
+
+## 概念
+
+### 1. 正向代理
+通过第三方服务器去访问万维网
+
+### 2. 反向代理
+访问万位网中的某个节点 事实上访问的是其上游节点
+
+### 3. 详细笔记
+
+[详细笔记_01](/Nginx/笔记/Nginx_01)
+
+[详细笔记_02](/Nginx/笔记/Nginx_02)
+
+[详细笔记_03](/Nginx/笔记/Nginx_03)
+
+[详细笔记_04](/Nginx/笔记/Nginx_04)
+
+[详细笔记_05](/Nginx/笔记/Nginx_05)
+
+---
+
+## Keepalive 保证一致性
+
+### 1. VRRP 协议
+虚拟路由冗余协议
+
+### 2. 配合 keepalive 实现集群
+
+[部署方案](https://blog.csdn.net/l1028386804/article/details/72801492)
+
+[调试方案](https://blog.csdn.net/Jason160918/article/details/100101791)
+
++ master
+```nginx
+# vi /etc/keepalived/keepalived.conf
+! Configuration File for keepalived
+global_defs {
+	## keepalived 自带的邮件提醒需要开启 sendmail 服务。 建议用独立的监控或第三方 SMTP
+	router_id liuyazhuang133 ## 标识本节点的字条串，通常为 hostname
+} 
+## keepalived 会定时执行脚本并对脚本执行的结果进行分析，动态调整 vrrp_instance 的优先级。如果脚本执行结果为 0，并且 weight 配置的值大于 0，则优先级相应的增加。如果脚本执行结果非 0，并且 weight配置的值小于 0，则优先级相应的减少。其他情况，维持原本配置的优先级，即配置文件中 priority 对应的值。
+vrrp_script chk_nginx {
+	script "/etc/keepalived/nginx_check.sh" ## 检测 nginx 状态的脚本路径
+	interval 2                              ## 检测时间间隔
+	weight -20                              ## 如果条件成立，权重-20
+}
+## 定义虚拟路由， VI_1 为虚拟路由的标示符，自己定义名称
+vrrp_instance VI_1 {
+	state MASTER                ## 主节点为 MASTER， 对应的备份节点为 BACKUP
+	interface eth0              ## 绑定虚拟 IP 的网络接口，与本机 IP 地址所在的网络接口相同， 我的是 eth0
+	virtual_router_id 33        ## 虚拟路由的 ID 号， 两个节点设置必须一样， 可选 IP 最后一段使用, 相同的 VRID 为一个组，他将决定多播的 MAC 地址
+	mcast_src_ip 192.168.50.133 ## 本机 IP 地址
+	priority 100                ## 节点优先级， 值范围 0-254， MASTER 要比 BACKUP 高
+	nopreempt                   ## 优先级高的设置 nopreempt 解决异常恢复后再次抢占的问题
+	advert_int 1                ## 组播信息发送间隔，两个节点设置必须一样， 默认 1s
+	## 设置验证信息，两个节点必须一致
+	authentication {
+		auth_type PASS
+		auth_pass 1111 ## 真实生产，按需求对应该过来
+	}
+	## 将 track_script 块加入 instance 配置块
+	track_script {
+		chk_nginx ## 执行 Nginx 监控的服务
+	} #
+	# 虚拟 IP 池, 两个节点设置必须一样
+	virtual_ipaddress {
+		192.168.50.130 ## 虚拟 ip，可以定义多个
+	}
+}
+```
+
++ slave
+```nginx
+# vi /etc/keepalived/keepalived.conf
+! Configuration File for keepalived
+global_defs {
+	router_id liuyazhuang134
+}
+vrrp_script chk_nginx {
+	script "/etc/keepalived/nginx_check.sh"
+	interval 2
+	weight -20
+}
+vrrp_instance VI_1 {
+	state BACKUP
+	interface eth1
+	virtual_router_id 33
+	mcast_src_ip 192.168.50.134
+	priority 90
+	advert_int 1
+	authentication {
+		auth_type PASS
+		auth_pass 1111
+	}
+	track_script {
+		chk_nginx
+	}
+	virtual_ipaddress {
+		192.168.50.130
+	}
+}
+```
+
++ check
+```sh
+# vi /etc/keepalived/nginx_check.sh
+#!/bin/bash
+A=`ps -C nginx –no-header |wc -l`
+if [ $A -eq 0 ];then
+/usr/local/nginx/sbin/nginx
+sleep 2
+if [ `ps -C nginx --no-header |wc -l` -eq 0 ];then
+	killall keepalived
+fi
+fi
+```
+
+## 插件
+
+### Lua 扩展模块
+```sh
+apt install lua5.2 lua5.2-doc liblua5.2-dev
+apt install luajit
+
+## 动态模块
+apt install libnginx-mod-http-lua
+```
+
+---
+
+### 注册中心
+[openresty](https://openresty.org/cn/getting-started.html)
+
+### 状态监控
+[图形化监控](https://github.com/onlyGuo/nginx-gui)
+
