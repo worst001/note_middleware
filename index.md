@@ -168,7 +168,17 @@ RabbitMQ 是一个开源的消息队列中间件，它实现了高效可靠的�
 
 ### 参考文档
 
-[Redis](Redis/Redis.md)
+[简要笔记](Redis/Redis.md)
+
+[安装](Redis/详细笔记/redis-install.md)
+
+[配置](Redis/详细笔记/redis-config.md)
+
+[Redis5配置](Redis/详细笔记/redis5-config.md)
+
+[安全设置](Redis/详细笔记/redis-safety.md)
+
+[Lua接口实现](Redis/详细笔记/redis-lua.md)
 
 ### 基本介绍
 

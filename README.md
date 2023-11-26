@@ -108,7 +108,7 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 [目录](RabbitMQ/RabbitMQ.md)
 
 [消息队列介绍](RabbitMQ/01.消息队列介绍.md)
-
+k
 [安装](RabbitMQ/02.RabbitMQ - 安装.md)
 
 [简单案例](RabbitMQ/03.RabbitMQ - 简单案例.md)
@@ -129,7 +129,17 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 
 ### 参考文档
 
-[Redis](Redis/Redis.md)
+[简要笔记](Redis/Redis.md)
+
+[安装](Redis/详细笔记/redis-install.md)
+
+[配置](Redis/详细笔记/redis-config.md)
+
+[Redis5配置](Redis/详细笔记/redis5-config.md)
+
+[安全设置](Redis/详细笔记/redis-safety.md)
+
+[Lua接口实现](Redis/详细笔记/redis-lua.md)
 
 ## Tomcat
 
