@@ -1,15 +1,5 @@
 # Nginx 课堂笔记与拓展
 
-----------------
-
-## 参考资料
-
-[尚硅谷_nginx_课件_v1](/nginx/nginx课件v1.0.pdf)
-
-[尚硅谷_nginx_课件_v2](/nginx/nginx课堂笔记.pdf)
-
-
----
 
 ## 概念
 

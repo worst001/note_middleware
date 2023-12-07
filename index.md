@@ -59,7 +59,19 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 
 ### 参考文档
 
-[Kafka](Kafka/Kafka.md)
+[笔记摘要](Kafka/Kafka.md)
+
+[Kafka 简介](Kafka/notes/Kafka简介.md)
+
+[基于 Zookeeper 搭建 Kafka 高可用集群](Kafka/notes/基于Zookeeper搭建Kafka高可用集群.md)
+
+[Kafka 生产者详解](Kafka/notes/Kafka生产者详解.md)
+
+[Kafka 消费者详解](Kafka/notes/Kafka消费者详解.md)
+
+[深入理解 Kafka 副本机制](Kafka/notes/Kafka深入理解分区副本机制.md)
+
+[Kafka 课件资料](Kafka/Direction.md)
 
 ### 基本介绍
 
@@ -98,6 +110,9 @@ Kafka 是一个分布式流处理平台和消息队列系统，由Apache软件�
 [负载均衡](Nginx/笔记/Nginx_04.md)
 
 [集群搭建](Nginx/笔记/Nginx_05.md)
+
+[Nginx 课件资料](Nginx/Direction.md)
+
 
 ### 基本介绍
 Nginx（发音为"engine-x"）是一个开源的高性能、轻量级的 Web 服务器和反向代理服务器，由Igor Sysoev创建并于2004年首次发布。它以其卓越的性能、高度可扩展性和低内存消耗而受到广泛关注和使用。
@@ -180,6 +195,9 @@ RabbitMQ 是一个开源的消息队列中间件，它实现了高效可靠的�
 
 [Lua接口实现](Redis/详细笔记/redis-lua.md)
 
+[Redis 课件资料](Redis/Direction.md)
+
+
 ### 基本介绍
 
 Redis（Remote Dictionary Server）是一个开源的内存数据存储系统，它提供了高性能、可扩展和灵活的键值对存储。Redis 以其快速读写速度和丰富的数据结构支持而受到广泛关注和使用。
@@ -205,7 +223,7 @@ Redis（Remote Dictionary Server）是一个开源的内存数据存储系统，
 
 ### 参考文档
 
-[随堂笔记](Tomcat/Tomcat.md)
+[入门摘要](Tomcat/Tomcat.md)
 
 [详细笔记](Tomcat/笔记/Tomcat专题.md)
 
@@ -236,7 +254,17 @@ Tomcat（全名为Apache Tomcat）是一个开源的Java Servlet容器和Web服�
 
 ### 参考文档
 
-[Zookeeper](ZooKeeper/ZooKeeper.md)
+[Zookeeper 简介及核心概念](Zookeeper/notes/Zookeeper简介及核心概念.md)
+
+[Zookeeper 单机环境和集群环境搭建](Zookeeper/notes/Zookeeper单机环境和集群环境搭建.md)
+
+[Zookeeper 常用 Shell 命令](Zookeeper/notes/Zookeeper常用Shell命令.md)
+
+[Zookeeper Java 客户端 —— Apache Curator](Zookeeper/notes/Zookeeper_Java客户端Curator.md)
+
+[Zookeeper ACL 权限控制](Zookeeper/notes/Zookeeper_ACL权限控制.md)
+
+[Zookeeper 课件资料](Zookeeper/Direction.md)
 
 ### 基本介绍
 
@@ -263,9 +291,9 @@ ZooKeeper 是一个开源的分布式协调服务，由Apache软件基金会开�
 
 ### 参考文档
 
-[学习笔记](ElasticSearch/ElasticSearch.md)
-
 [课程笔记](ElasticSearch/课程笔记.md)
+
+[ElasticSearch 课件资料](ElasticSearch/Direction.md)
 
 ### 基本介绍
 

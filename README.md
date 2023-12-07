@@ -79,89 +79,78 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 
 ## Kafka
 
-### 参考文档
++ [笔记摘要](Kafka/Kafka.md)
++ [Kafka 简介](Kafka/notes/Kafka简介.md)
++ [基于 Zookeeper 搭建 Kafka 高可用集群](Kafka/notes/基于Zookeeper搭建Kafka高可用集群.md)
++ [Kafka 生产者详解](Kafka/notes/Kafka生产者详解.md)
++ [Kafka 消费者详解](Kafka/notes/Kafka消费者详解.md)
++ [深入理解 Kafka 副本机制](Kafka/notes/Kafka深入理解分区副本机制.md)
 
-[Kafka](Kafka/Kafka.md)
+#### Kafka 课件资料
++ [Kafka（入门与概述）](Kafka/笔记/01_尚硅谷大数据技术之Kafka.pdf)
++ [Kafka（外部系统集成）](Kafka/笔记/02_尚硅谷大数据技术之Kafka（外部系统集成）V3.3.pdf)
++ [Kafka（生产调优手册）](Kafka/笔记/03_尚硅谷大数据技术之Kafka（生产调优手册）V3.3.pdf)
++ [Kafka（源码解析）](Kafka/笔记/04_尚硅谷大数据技术之Kafka（源码解析）V3.3.pdf)
+
 
 ## Nginx
 
-### 参考文档
++ [课堂笔记与拓展](Nginx/Nginx.md)
++ [KeepAlive案例](Nginx/KeepAlive.md)
++ [Nginx简介](Nginx/笔记/Nginx_01.md)
++ [服务器配置](Nginx/笔记/Nginx_02.md)
++ [Rewrite功能](Nginx/笔记/Nginx_03.md)
++ [负载均衡](Nginx/笔记/Nginx_04.md)
++ [集群搭建](Nginx/笔记/Nginx_05.md)
++ [Nginx 课件资料](Nginx/nginx课件v1.0.pdf)
 
-[课堂笔记与拓展](Nginx/Nginx.md)
-
-[KeepAlive案例](Nginx/KeepAlive.md)
-
-[Nginx简介](Nginx/笔记/Nginx_01.md)
-
-[服务器配置](Nginx/笔记/Nginx_02.md)
-
-[Rewrite功能](Nginx/笔记/Nginx_03.md)
-
-[负载均衡](Nginx/笔记/Nginx_04.md)
-
-[集群搭建](Nginx/笔记/Nginx_05.md)
 
 ## RabbitMQ
 
-### 参考文档
-
-[目录](RabbitMQ/RabbitMQ.md)
-
-[消息队列介绍](RabbitMQ/01.消息队列介绍.md)
-
-[安装](RabbitMQ/02.RabbitMQ-安装.md)
-
-[简单案例](RabbitMQ/03.RabbitMQ-简单案例.md)
-
-[发布确认](RabbitMQ/04.RabbitMQ-发布确认.md)
-
-[交换机](RabbitMQ/05.RabbitMQ-交换机.md)
-
-[死信队列](RabbitMQ/06.RabbitMQ-死信队列.md)
-
-[延迟队列](RabbitMQ/07.RabbitMQ-延迟队列.md)
-
-[发布确认高级](RabbitMQ/08.RabbitMQ-发布确认高级.md)
-
-[幂等性、优先级、惰性](RabbitMQ/09.RabbitMQ-幂等性、优先级、惰性.md)
++ [目录](RabbitMQ/RabbitMQ.md)
++ [消息队列介绍](RabbitMQ/01.消息队列介绍.md)
++ [安装](RabbitMQ/02.RabbitMQ-安装.md)
++ [简单案例](RabbitMQ/03.RabbitMQ-简单案例.md)
++ [发布确认](RabbitMQ/04.RabbitMQ-发布确认.md)
++ [交换机](RabbitMQ/05.RabbitMQ-交换机.md)
++ [死信队列](RabbitMQ/06.RabbitMQ-死信队列.md)
++ [延迟队列](RabbitMQ/07.RabbitMQ-延迟队列.md)
++ [发布确认高级](RabbitMQ/08.RabbitMQ-发布确认高级.md)
++ [幂等性、优先级、惰性](RabbitMQ/09.RabbitMQ-幂等性、优先级、惰性.md)
 
 ## Redis
 
-### 参考文档
-
-[简要笔记](Redis/Redis.md)
-
-[安装](Redis/详细笔记/redis-install.md)
-
-[配置](Redis/详细笔记/redis-config.md)
-
-[Redis5配置](Redis/详细笔记/redis5-config.md)
-
-[安全设置](Redis/详细笔记/redis-safety.md)
-
-[Lua接口实现](Redis/详细笔记/redis-lua.md)
++ [简要笔记](Redis/Redis.md)
++ [安装](Redis/详细笔记/redis-install.md)
++ [配置](Redis/详细笔记/redis-config.md)
++ [Redis5配置](Redis/详细笔记/redis5-config.md)
++ [安全设置](Redis/详细笔记/redis-safety.md)
++ [Lua接口实现](Redis/详细笔记/redis-lua.md)
++ [Redis 课件资料](Redis/尚硅谷_Redis6课件.pdf)
 
 ## Tomcat
 
-### 参考文档
-
-[随堂笔记](Tomcat/Tomcat.md)
-
-[详细笔记](Tomcat/笔记/Tomcat专题.md)
++ [入门摘要](Tomcat/Tomcat.md)
++ [详细笔记](Tomcat/笔记/Tomcat专题.md)
 
 ## Zookeeper
 
-### 参考文档
++ [Zookeeper 简介及核心概念](Zookeeper/notes/Zookeeper简介及核心概念.md)
++ [Zookeeper 单机环境和集群环境搭建](Zookeeper/notes/Zookeeper单机环境和集群环境搭建.md)
++ [Zookeeper 常用 Shell 命令](Zookeeper/notes/Zookeeper常用Shell命令.md)
++ [Zookeeper Java 客户端 —— Apache Curator](Zookeeper/notes/Zookeeper_Java客户端Curator.md)
++ [Zookeeper ACL 权限控制](Zookeeper/notes/Zookeeper_ACL权限控制.md)
 
-[Zookeeper](ZooKeeper/ZooKeeper.md)
+#### Zookeeper 课件资料
+
++ [Zookeeper 入门](Zookeeper/笔记/08_尚硅谷技术之ZookeeperV3.3.pdf)
++ [Zookeeper 源码解析](Zookeeper/笔记/08_尚硅谷技术之Zookeeper（源码解析）V3.3.pdf)
+
 
 ## ElasticSearch
 
-### 参考文档
-
-[学习笔记](ElasticSearch/ElasticSearch.md)
-
-[课程笔记](ElasticSearch/课程笔记.md)
++ [课程笔记](ElasticSearch/课程笔记.md)
++ [ElasticSearch 课件资料](ElasticSearch/ELK课程教案.pdf)
 
 
 -------------------
@@ -199,11 +188,14 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 <!-- ![公众号](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%8F.jpg) -->
 
 ## 参考资料
+
+[尚硅谷系列教程资料](http://www.atguigu.com/opensource.shtml)
+
 [https://github.com/Tinywan/lua-nginx-redis](https://github.com/Tinywan/lua-nginx-redis)
 
 [https://www.kuangstudy.com/bbs/1354069127022583809](https://www.kuangstudy.com/bbs/1354069127022583809)
 
-[尚硅谷系列教程资料](http://www.atguigu.com/opensource.shtml)
+[https://github.com/heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)
 
 <!-- links -->
 [your-project-path]:shaojintian/Best_README_template
