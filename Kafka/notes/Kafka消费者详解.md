@@ -12,7 +12,7 @@
 需要注意的是：同一个分区只能被同一个消费者群组里面的一个消费者读取，不可能存在同一个分区被同一个消费者群里多个消费者共同读取的情况，如图：
 
 <!-- <div align="center"> <img  src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/kafka-consumer02.png"/> </div> -->
-![kafka-consumer02](pictures/kafka-consumer02.png)
+![kafka-consumer02](/pictures/kafka-consumer02.png)
 
 
 可以看到即便消费者 Consumer5 空闲了，但是也不会去读取任何一个分区的数据，这同时也提醒我们在使用时应该合理设置消费者的数量，以免造成闲置和额外开销。

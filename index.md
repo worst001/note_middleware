@@ -1,3 +1,14 @@
+<!-- PROJECT SHIELDS -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Stargazers][stars-shield]][stars-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+
+<!-- PROJECT LOGO -->
+
 # 中间件
 
 ## 什么是中间件
@@ -254,17 +265,17 @@ Tomcat（全名为Apache Tomcat）是一个开源的Java Servlet容器和Web服�
 
 ### 参考文档
 
-[Zookeeper 简介及核心概念](Zookeeper/notes/Zookeeper简介及核心概念.md)
+[Zookeeper 简介及核心概念](ZooKeeper/notes/Zookeeper简介及核心概念.md)
 
-[Zookeeper 单机环境和集群环境搭建](Zookeeper/notes/Zookeeper单机环境和集群环境搭建.md)
+[Zookeeper 单机环境和集群环境搭建](ZooKeeper/notes/Zookeeper单机环境和集群环境搭建.md)
 
-[Zookeeper 常用 Shell 命令](Zookeeper/notes/Zookeeper常用Shell命令.md)
+[Zookeeper 常用 Shell 命令](ZooKeeper/notes/Zookeeper常用Shell命令.md)
 
-[Zookeeper Java 客户端 —— Apache Curator](Zookeeper/notes/Zookeeper_Java客户端Curator.md)
+[Zookeeper Java 客户端 —— Apache Curator](ZooKeeper/notes/Zookeeper_Java客户端Curator.md)
 
-[Zookeeper ACL 权限控制](Zookeeper/notes/Zookeeper_ACL权限控制.md)
+[Zookeeper ACL 权限控制](ZooKeeper/notes/Zookeeper_ACL权限控制.md)
 
-[Zookeeper 课件资料](Zookeeper/Direction.md)
+[Zookeeper 课件资料](ZooKeeper/Direction.md)
 
 ### 基本介绍
 
@@ -316,3 +327,17 @@ Elasticsearch 是一个开源的分布式搜索和分析引擎，由Elastic公�
 + 可扩展性和插件生态系统：Elasticsearch 具有良好的可扩展性，并支持水平扩展和集群部署。此外，它还拥有丰富的插件生态系统，使开发人员能够根据需求添加功能和扩展。
 
 + 日志分析和监控：由于其快速的搜索和聚合能力，Elasticsearch 在日志分析和实时监控方面非常流行。它可以用于处理和分析大量的日志数据，并通过可视化工具（如Kibana）提供实时的数据可视化和仪表板。
+
+
+<!-- links -->
+[your-project-path]:shaojintian/Best_README_template
+[contributors-shield]: https://img.shields.io/github/contributors/worst001/mkdocs_middleware.svg?style=flat-square
+[contributors-url]: https://github.com/worst001/mkdocs_middleware/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/worst001/mkdocs_middleware.svg?style=flat-square
+[forks-url]: https://github.com/worst001/mkdocs_middleware/network/members
+[stars-shield]: https://img.shields.io/github/stars/worst001/mkdocs_middleware.svg?style=social
+[stars-url]: https://github.com/worst001/mkdocs_middleware/stargazers
+[issues-shield]: https://img.shields.io/github/issues/worst001/mkdocs_middleware.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/worst001/mkdocs_middleware.svg
+[license-shield]: https://img.shields.io/github/license/worst001/mkdocs_middleware.svg?style=flat-square
+[license-url]: https://github.com/worst001/mkdocs_middleware/blob/main/LICENSE.txt
