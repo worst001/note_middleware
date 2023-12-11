@@ -203,6 +203,14 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 
 [https://github.com/heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)
 
+
+### 写在最后的话
+
+因为仓库与文档的数量比较大，有些借鉴资料忘了在`参考文档`部分提及原作者与原仓库，若有疏漏请告诉，我及时补上。
+
+所有引用的原资料都确认是开源认证，若有侵权请告知。
+
+
 <!-- links -->
 [your-project-path]:shaojintian/Best_README_template
 [contributors-shield]: https://img.shields.io/github/contributors/worst001/mkdocs_middleware.svg?style=flat-square
