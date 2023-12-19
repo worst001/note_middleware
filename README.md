@@ -165,6 +165,17 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 
 该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
 
+<!-- ## 作者 -->
+<!--  -->
+<!-- [小昊子](https://github.com/worst001) -->
+<!--  -->
+<!-- 制做不易，如果有帮到你就请作者喝杯咖啡吧! -->
+<!--  -->
+<!-- ![支付宝加微信](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%8A%A0%E5%BE%AE%E4%BF%A1.jpg) -->
+<!--  -->
+<!-- 作者无聊时做的测试游戏，完全免费哦！ -->
+<!--  -->
+<!-- ![公众号](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%8F.jpg) -->
 
 ## 参考资料
 
