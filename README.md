@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -9,7 +10,37 @@
 
 <!-- PROJECT LOGO -->
 
-# 中间件
+<!-- 项目LOGO -->
+<br />
+<div align="center">
+  <a href="http://mkdocs.grft.top">
+    <img src="https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/mkdocs/logo.png" alt="Logo" width="480" height="270">
+  </a>
+
+  <h3 align="center">中间件</h3>
+
+  <p align="center">
+    <br />
+    <a href="http://mkdocs.grft.top/中间件/"><strong>探索文档 »</strong></a>
+    <br />
+  </p>
+</div>
+
+<!-- 目录 -->
+<details>
+  <summary>目录</summary>
+  <ol>
+    <li><a href="#关于项目">关于项目</a></li>
+    <li><a href="#什么是中间件">什么是中间件</a></li>
+    <li><a href="#技术目录">技术目录</a></li>
+    <li><a href="#贡献">贡献</a></li>
+    <li><a href="#许可证">许可证</a></li>
+    <li><a href="#联系方式">联系方式</a></li>
+    <li><a href="#鸣谢">鸣谢</a></li>
+  </ol>
+</details>
+
+## 关于项目
 
 整理了一些常用的中间件相关资料、笔记与操作手册
 
@@ -21,8 +52,7 @@
 
 - 访问入口：[http://mkdocs.grft.top](http://mkdocs.grft.top)
 
-
---------------------
+<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
 ## 什么是中间件
 
@@ -77,13 +107,13 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 ### 网络中间件
 它包括网管、接入、网络测试、虚拟社区、虚拟缓冲等，也是当前最热门的研发项目。
 
---------------------
+<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
-## 目录
+## 技术目录
 
 [目录与大纲](index.md)
 
-## Kafka
+### Kafka
 
 + [笔记摘要](Kafka/Kafka.md)
 + [Kafka 简介](Kafka/notes/Kafka简介.md)
@@ -99,7 +129,7 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 + [Kafka（源码解析）](Kafka/笔记/04_尚硅谷大数据技术之Kafka（源码解析）V3.3.pdf)
 
 
-## Nginx
+### Nginx
 
 + [课堂笔记与拓展](Nginx/Nginx.md)
 + [KeepAlive案例](Nginx/KeepAlive.md)
@@ -111,7 +141,7 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 + [Nginx 课件资料](Nginx/nginx课件v1.0.pdf)
 
 
-## RabbitMQ
+### RabbitMQ
 
 + [目录](RabbitMQ/RabbitMQ.md)
 + [消息队列介绍](RabbitMQ/01.消息队列介绍.md)
@@ -124,7 +154,7 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 + [发布确认高级](RabbitMQ/08.RabbitMQ-发布确认高级.md)
 + [幂等性、优先级、惰性](RabbitMQ/09.RabbitMQ-幂等性、优先级、惰性.md)
 
-## Redis
+### Redis
 
 + [简要笔记](Redis/Redis.md)
 + [安装](Redis/详细笔记/redis-install.md)
@@ -134,12 +164,12 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 + [Lua接口实现](Redis/详细笔记/redis-lua.md)
 + [Redis 课件资料](Redis/尚硅谷_Redis6课件.pdf)
 
-## Tomcat
+### Tomcat
 
 + [入门摘要](Tomcat/Tomcat.md)
 + [详细笔记](Tomcat/笔记/Tomcat专题.md)
 
-## Zookeeper
+### Zookeeper
 
 + [Zookeeper 简介及核心概念](Zookeeper/notes/Zookeeper简介及核心概念.md)
 + [Zookeeper 单机环境和集群环境搭建](Zookeeper/notes/Zookeeper单机环境和集群环境搭建.md)
@@ -153,31 +183,47 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 + [Zookeeper 源码解析](Zookeeper/笔记/08_尚硅谷技术之Zookeeper（源码解析）V3.3.pdf)
 
 
-## ElasticSearch
+### ElasticSearch
 
 + [课程笔记](ElasticSearch/课程笔记.md)
 + [ElasticSearch 课件资料](ElasticSearch/ELK课程教案.pdf)
 
+<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
--------------------
+<!-- 贡献 -->
 
-## 版本控制
+## 贡献
 
-该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
+贡献是使开源社区成为一个如此令人惊叹的地方，以学习、激励和创造。您所做的任何贡献都将非常感谢。
 
-<!-- ## 作者 -->
-<!--  -->
-<!-- [小昊子](https://github.com/worst001) -->
-<!--  -->
-<!-- 制做不易，如果有帮到你就请作者喝杯咖啡吧! -->
-<!--  -->
-<!-- ![支付宝加微信](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%8A%A0%E5%BE%AE%E4%BF%A1.jpg) -->
-<!--  -->
-<!-- 作者无聊时做的测试游戏，完全免费哦！ -->
-<!--  -->
-<!-- ![公众号](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%8F.jpg) -->
+如果您对使这个项目变得更好有建议，请 fork 该仓库并创建 pull request。您也可以打开一个带有“enhancement”标签的问题。不要忘记给这个项目点个星！再次感谢！
 
-## 参考资料
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+
+<!-- 许可证 -->
+## 许可证
+
+根据 MIT 许可证进行分发。更多信息请参见 [LICENSE.txt](LICENSE)。
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+<!-- 联系方式 -->
+## 联系方式
+
+关注我: [小昊子](https://github.com/worst001)
+
+博客地址: [http://mkdocs.grft.top](http://mkdocs.grft.top)
+
+项目链接: [https://github.com/worst001/mkdocs_middleware](https://github.com/worst001/mkdocs_middleware)
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+## 鸣谢
+
+因为仓库与文档的数量比较大，有些借鉴资料忘了在`参考文档`部分提及原作者与原仓库，若有疏漏请告诉，我及时补上。
+
+所有引用的原资料都确认是开源认证，若有侵权请告知。
 
 [尚硅谷系列教程资料](http://www.atguigu.com/opensource.shtml)
 
@@ -187,13 +233,10 @@ BEA的 Tuxedo由此而著名，它成为增长率最高的厂商。一个事务�
 
 [https://github.com/heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)
 
+[https://openai.com/chatgpt](https://openai.com/chatgpt)
 
-### 写在最后的话
 
-因为仓库与文档的数量比较大，有些借鉴资料忘了在`参考文档`部分提及原作者与原仓库，若有疏漏请告诉，我及时补上。
-
-所有引用的原资料都确认是开源认证，若有侵权请告知。
-
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
 <!-- links -->
 [your-project-path]:shaojintian/Best_README_template
